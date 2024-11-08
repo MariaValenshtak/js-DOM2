@@ -1,4 +1,4 @@
-/* Базові стилі для сторінки */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f5f5dc; /* Світлий бежевий фон */
-    color: #4b3832; /* Темний відтінок коричневого для тексту */
+    background-color: #f5f5dc; 
+    color: #4b3832; 
     margin: 0;
     padding: 20px;
 }
@@ -19,12 +19,11 @@ body {
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #4b3832; /* Темно-коричневий для заголовка */
+    color: #4b3832; 
     text-align: center;
     font-family: 'Georgia', serif;
 }
 
-/* Стилі для галереї */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -33,9 +32,9 @@ h1 {
     max-width: 900px;
     margin-bottom: 20px;
     padding: 15px;
-    border: 2px solid #d2b48c; /* Бежевий колір рамки для галереї */
+    border: 2px solid #d2b48c; 
     border-radius: 10px;
-    background-color: #fffaf0; /* Кремовий фон для галереї */
+    background-color: #fffaf0; 
 }
 
 .gallery img {
@@ -43,7 +42,7 @@ h1 {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 2px solid #d2b48c; /* Бежевий колір рамки для зображень */
+    border: 2px solid #d2b48c; 
     transition: transform 0.3s ease;
 }
 
@@ -51,7 +50,6 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Стилі для кнопок */
 .button-container {
     display: flex;
     justify-content: center;
@@ -59,27 +57,27 @@ h1 {
 }
 
 button {
-    background-color: #d2b48c; /* Бежевий колір для кнопок */
-    color: #4b3832; /* Темно-коричневий для тексту кнопок */
+    background-color: #d2b48c; 
+    color: #4b3832; 
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
-    border-radius: 20px; /* Більш заокруглені краї */
+    border-radius: 20px; 
     cursor: pointer;
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
-    background-color: #c4a484; /* Темніший бежевий для ефекту наведення */
+    background-color: #c4a484;
 }
 
 button:active {
-    background-color: #a67b5b; /* Темніший коричнево-бежевий при натисканні */
+    background-color: #a67b5b; 
 }
 
 button:disabled {
-    background-color: #e0d6c3; /* Світло-бежевий для неактивних кнопок */
+    background-color: #e0d6c3; 
     color: #9c9c9c;
     cursor: not-allowed;
 }

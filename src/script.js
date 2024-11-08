@@ -49,7 +49,7 @@ function loadMoreImages() {
 function clearGallery() {
     const gallery = document.getElementById('gallery');
     gallery.innerHTML = '';
-    currentImageIndex = 0;  // Reset index to start from the beginning when loading new images
+    currentImageIndex = 0;  
 }
 
 function removeLastImage() {
@@ -67,5 +67,5 @@ function reverseGallery() {
     images.reverse().forEach(img => gallery.appendChild(img));
 }
 
-// Завантаження перших 4 зображень при завантаженні сторінки
+
 window.onload = () => loadImages();
