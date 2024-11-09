@@ -24,6 +24,7 @@ h1 {
     font-family: 'Georgia', serif;
 }
 
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -49,6 +50,7 @@ h1 {
 .gallery img:hover {
     transform: scale(1.05);
 }
+
 
 .button-container {
     display: flex;
